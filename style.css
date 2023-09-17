@@ -1,0 +1,223 @@
+body{
+    width: 1440px;
+    height: 1080px;
+    margin: 0 auto;
+    
+}
+
+.conteiner{
+    width: 1200px;
+    height: 980px;
+    margin: 0 auto;
+    background-color: #1E1E1E;
+}
+
+.header{
+    display: flex;
+}
+
+.name{
+height: 230px;
+position: absolute;
+top:10px;
+justify-content:start;
+color: rgba(119, 232, 184, 0.74);
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: 96px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+
+main{
+    margin-top: 40px;
+}
+.content{
+    width: 880px;
+    height: 480px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.num{
+display: flex;
+flex-direction: column;
+color: #FFF;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.content_1{
+    gap: 100px;
+display: flex;
+color: #EF64B7;
+font-family: Hepta Slab;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.content_2{
+gap: 150px;
+display: flex;
+color: #8CEBEB;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.content_3{
+    gap: 200px;
+    display: flex;
+    color: #8CEBEB;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+.content_4{
+gap: 150px;
+display: flex;
+color: #8CEBEB;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}    
+
+.content_5{
+gap: 200px;
+display: flex;
+color: #8CEBEB;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.content_6{
+    gap: 200px;
+    display: flex;
+    color: #8CEBEB;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.content_7{
+    gap: 200px;
+    display: flex;
+    color: #8CEBEB;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content_8{
+    gap: 200px;
+    display: flex;
+    color: #8CEBEB;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content_9{
+    gap: 200px;
+    display: flex;
+    color: #8CEBEB;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content_10{
+    gap: 185px;
+    display: flex;
+    color: #8CEBEB;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.content_11{
+    gap: 100px;
+    display: flex;
+    color: #8CEBEB;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.name {
+    text-decoration: underline;
+    font-weight: bold;
+    position: relative;
+ }
+ .name:hover::before {
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+ }
+ .name::before {
+    content: '';
+    background-image:url("./10.JPG");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0; 
+    height: 0;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+ }
+
+ .photo{
+    position: relative;
+    right: 184px;
+ }
+
+ .photo:hover::before {
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+ }
+
+ .photo::before {
+    content: '';
+    background-image:url("./300-7.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0; 
+    height: 0;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+ }
+ 
